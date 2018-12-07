@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".InventoryActivity"
+    tools:showIn="@layout/activity_inventory_editor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_24">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_8"
+                android:background="@drawable/bkg_border"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/tv_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="end"
+                    android:paddingStart="@dimen/padding_12"
+                    android:paddingLeft="@dimen/padding_12"
+                    android:paddingEnd="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_4"
+                    android:text="@string/text_product_name"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/editor_product_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_12"
+                    android:layout_marginRight="@dimen/margin_12"
+                    android:background="@null"
+                    android:hint="@string/text_start_typing"
+                    android:inputType="textCapWords"
+                    android:paddingTop="@dimen/padding_12"
+                    android:paddingBottom="@dimen/padding_12"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_32"
+                android:background="@drawable/bkg_border"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/tv_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="end"
+                    android:paddingStart="@dimen/padding_12"
+                    android:paddingLeft="@dimen/padding_12"
+                    android:paddingEnd="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_4"
+                    android:text="@string/text_product_price"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/editor_product_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_12"
+                    android:layout_marginRight="@dimen/margin_12"
+                    android:background="@null"
+                    android:hint="@string/text_start_typing"
+                    android:inputType="numberDecimal"
+                    android:paddingTop="@dimen/padding_12"
+                    android:paddingBottom="@dimen/padding_12"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_32"
+                android:background="@drawable/bkg_border"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/tv_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="end"
+                    android:paddingStart="@dimen/padding_12"
+                    android:paddingLeft="@dimen/padding_12"
+                    android:paddingEnd="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_4"
+                    android:text="@string/text_product_quantity"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/editor_product_quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_12"
+                    android:layout_marginRight="@dimen/margin_12"
+                    android:background="@null"
+                    android:hint="@string/text_start_typing"
+                    android:inputType="numberSigned"
+                    android:paddingTop="@dimen/padding_12"
+                    android:paddingBottom="@dimen/padding_12"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_32"
+                android:background="@drawable/bkg_border"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/tv_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="end"
+                    android:paddingStart="@dimen/padding_12"
+                    android:paddingLeft="@dimen/padding_12"
+                    android:paddingEnd="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_4"
+                    android:text="@string/text_supplier_name"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/editor_supplier_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_12"
+                    android:layout_marginRight="@dimen/margin_12"
+                    android:background="@null"
+                    android:hint="@string/text_start_typing"
+                    android:inputType="textCapWords"
+                    android:paddingTop="@dimen/padding_12"
+                    android:paddingBottom="@dimen/padding_12"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_32"
+                android:background="@drawable/bkg_border"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/tv_width"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="end"
+                    android:paddingStart="@dimen/padding_12"
+                    android:paddingLeft="@dimen/padding_12"
+                    android:paddingEnd="@dimen/padding_4"
+                    android:paddingRight="@dimen/padding_4"
+                    android:text="@string/text_supplier_contact"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/editor_supplier_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_12"
+                    android:layout_marginRight="@dimen/margin_12"
+                    android:background="@null"
+                    android:hint="@string/text_start_typing"
+                    android:inputType="numberSigned"
+                    android:paddingTop="@dimen/padding_12"
+                    android:paddingBottom="@dimen/padding_12"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

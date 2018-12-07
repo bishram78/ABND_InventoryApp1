@@ -1,0 +1,64 @@
+<resources>
+    <!-- NAME OF THE APPLICATION -->
+    <string name="app_name">InventoryApp1</string>
+
+    <!-- TEXT STRING THAT IS SHOWN IN SPLASH SCREEN -->
+    <string name="inventory_app_stage_1">Inventory App Stage 1</string>
+
+    <!-- TEXT STRING THAT IS SHOWN IN SPLASH SCREEN -->
+    <string name="android_basic_nanodegree">Android Basic Nanodegree</string>
+
+    <!-- TEXT STRING THAT IS SHOWN IN SPLASH SCREEN -->
+    <string name="udacity">#Udacity</string>
+
+    <!-- TEXT STRING THAT IS SHOWN IN SPLASH SCREEN -->
+    <string name="google">#Google</string>
+
+    <!-- TEXT STRING _Continue_ THAT IS SHOWN IN SPLASH SCREEN-->
+    <string name="continue_">Continue</string>
+
+    <!-- CONTENT DESCRIPTION FOR IMAGE VIEWS -->
+    <string name="image_description">image of inventory.</string>
+
+    <!-- TEXT STRING _Insert Dummy Data_ THE 1ST OPTION OF DROP DOWN MENU OF MAIN SCREEN -->
+    <string name="insert_dummy_data">Insert dummy data</string>
+
+    <!-- TEXT STRING _Quit_ THE 2ND OPTION OF DROP DOWN MENU OF MAIN SCREEN -->
+    <string name="quit">Quit</string>
+
+
+    <string name="inventory">Inventory</string>
+
+    <!-- TEXT STRING _Start typing_ THE HINT FOR THE TEXT FIELDS -->
+    <string name="text_start_typing">Start typing…</string>
+
+    <!-- TEXT STRING _Product Name_ FOR THE DATABASE TABLE COLUMN NAME -->
+    <string name="text_product_name">Product name:</string>
+
+    <!-- TEXT STRING _Product Price_ FOR THE DATABASE TABLE COLUMN NAME -->
+    <string name="text_product_price">Product price:</string>
+
+    <!-- TEXT STRING _Product Quantity_ FOR THE DATABASE TABLE COLUMN NAME -->
+    <string name="text_product_quantity">Product quantity:</string>
+
+    <!-- TEXT STRING _Supplier Name_ FOR THE DATABASE TABLE COLUMN NAME -->
+    <string name="text_supplier_name">Supplier name:</string>
+
+    <!-- TEXT STRING _Supplier Contact_ FOR THE DATABASE TABLE COLUMN NAME -->
+    <string name="text_supplier_contact">Supplier contact:</string>
+
+    <!-- TEXT STRING _Save_ AN ALTERNATIVE TITLE FOR SAVE BUTTON -->
+    <string name="text_save">Save</string>
+
+    <!-- TEXT STRING _Clear fields_ CLEARS ALL TEXTS WHICH ARE ENTERED TO THE TEXT FIELDS IN THE
+        ADD INVENTORY EDITOR ACTIVITY -->
+    <string name="text_clear_fields">Clear fields</string>
+
+    <!-- TEXT STRING _Add New Inventory_ THE HEADER FOR THE EDITOR'S ACTIVITY -->
+    <string name="add_to_store">Add new inventory</string>
+
+    <!-- TEXT STRING _Database info will be shown here_ -->
+    <string name="text_database_info">Database info will be shown here.</string>
+    <string name="text_successfully_added">Successfully added.</string>
+    <string name="text_error_occured">Error occurred while adding.</string>
+</resources>
